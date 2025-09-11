@@ -1,0 +1,34 @@
+html{
+	background-color: #E4D6BA;
+	padding: 25px 25px;
+p{
+ color: #0C0874;
+}
+h2 {
+ font-size: 1.8em;
+ background-color: #A6B1C8;
+ padding: 10px 10px 10px 10px;
+ margin: 0 0 0 50px;
+}
+body {
+ padding: 0 25px;
+ background-image: url(./images/utka1.svg);
+}
+.red1 {
+ color: red;
+}
+#blue1 {
+ color: blue;
+ font-size: 1.8em;
+}
+h1{
+ background-image: url(./images/tractor.png);
+ padding: 13px 0;
+ font-size: 4em;
+ 
+ font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: italic;
+  color: red;
+}
