@@ -1,34 +1,136 @@
-html{
-	background-color: #E4D6BA;
-	padding: 25px 25px;
-p{
- color: #0C0874;
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	/*font: inherit;*/
+	vertical-align: baseline;
 }
-h2 {
- font-size: 1.8em;
- background-color: #A6B1C8;
- padding: 10px 10px 10px 10px;
- margin: 0 0 0 50px;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
- padding: 0 25px;
- background-image: url(./images/utka1.svg);
+	line-height: 1.2;
 }
-.red1 {
- color: red;
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
 }
-#blue1 {
- color: blue;
- font-size: 1.8em;
+ul {
+	padding-left: 1.4em
+	list-style: square;
 }
-h1{
- background-image: url(./images/tractor.png);
- padding: 13px 0;
- font-size: 4em;
- 
- font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <400>;
-  font-style: italic;
-  color: red;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+/* простой двухколончный макет  */
+.main {
+	float: left;
+	width: 70%;
+	color: blue;
+	
 }
+
+.sidebar {
+	margin-left: 75%;
+	padding: 15px;
+	background: #EAEAFA;
+	color: red;
+
+}
+h1 {
+	font-size:3em;
+	font-family: "Arrial Black", Arial,sans-serif;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 2.2em;
+	color: #AFC3D6;
+    margin-bottom: 5px;
+}
+.main h2 {
+	color:#E8A064;
+	border-bottom: 2px black solid;
+	background: url(image/bullet.flower.png) no-repeat;
+	padding: 0 0 2px 80px;
+}
+/*
+.sidebar *{
+	margin-left: 75%;
+	padding: 15px;
+	background: #FFFFFF;
+	
+}
+
+h1, h2 {
+	font-size: 2.2em;
+	color: brown;
+}
+*/
+a:{
+color:green;
+}
+a: {
+	color: #567141;
+}
+a:visited {
+	color:#35FFFF;
+}
+a:hover {
+	color: red;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding: 5px;
+	background-color: black;
+}
+/*
+html body p{
+	background: #EAEAFA;
+	
+}
+html p{
+	background: pink;
+}
+*/
+body {
+    color: #B1967C;
+	font-family: "Roboto Mono", serif;
+	padding-top: 70px;
+	background: #CDE6FF url(images/oblako.jpg) repeat-x;
+	background-size: 100% 100px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.main p{
+	color: #616161;
+	font-family: "Noto Serif", serif;
+	font-size:1.1em;
+	line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 80px;
+
+}
+p.intro{
+	color:#6A94CC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+/*
+.sidebar h2{
+	color: red;
+}
+#id1 {
+	color:blue;
+}
+*/
